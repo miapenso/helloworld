@@ -1,0 +1,17 @@
+{
+    "name": "miapenso/helloworld",
+    "description": "世界,你好！",
+    "type": "library",
+    "authors": [
+        {
+            "name": "miapenso",
+            "email": "someday158@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Miapenso\\HelloWorld\\": "src/"
+        }
+    }
+}
