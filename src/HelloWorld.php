@@ -4,6 +4,8 @@ namespace Miapenso\HelloWorld;
 class HelloWorld
 {
     public function say(){
-        return 'hello,world!';
+        $say = 'Hello,world!';
+        $say .= 'This is version update';
+        return $say;
     }
 }
